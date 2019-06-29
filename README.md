@@ -20,11 +20,11 @@ Challenge description: https://github.com/Rocketseat/bootcamp-gostack-desafio-01
 If I call the POST `/projects` route by submitting `{id: 1, title: 'New project'}` and the POST `/projects/1/` tasks route with `{title: 'New task'}`, my array of projects should look like this:
 
     [
-		  {
-				id: "1",
-				title: 'New project',
-				tasks: ['New task']
-		  }
+	{
+		id: "1",
+		title: 'New project',
+		tasks: ['New task']
+	}
     ]
 
 ## Middlewares
